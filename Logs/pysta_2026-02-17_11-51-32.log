@@ -1,0 +1,25 @@
+2026-02-17 11:51:32 | PySTA | INFO | logger.py:70 | Logger initialized. Log file: Logs\pysta_2026-02-17_11-51-32.log
+2026-02-17 11:51:43 | PySTA.__main__ | INFO | main.py:150 | ============================================================
+2026-02-17 11:51:43 | PySTA.__main__ | INFO | main.py:151 | PySTA Starting
+2026-02-17 11:51:43 | PySTA.__main__ | INFO | main.py:152 | ============================================================
+2026-02-17 11:51:43 | PySTA.__main__ | INFO | main.py:153 | Python version: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+2026-02-17 11:51:43 | PySTA.__main__ | INFO | main.py:154 | Log file: Logs\pysta_2026-02-17_11-51-32.log
+2026-02-17 11:51:44 | PySTA.Src.utils.config_loader | INFO | config_loader.py:76 | No configuration file found. Using defaults.
+2026-02-17 11:51:44 | PySTA.__main__ | INFO | main.py:105 | Configuration loaded: STAConfig(enable_setup=True, enable_hold=True, enable_ocv=False, enable_si=False, enable_derating=False, ocv_derate_data=1.0, ocv_derate_clock=1.0, ocv_derate_early=0.95, ocv_derate_late=1.05, si_aggressor_coupling_threshold=0.1, si_noise_margin=0.2, max_paths_per_clock=10, max_path_depth=100, report_violations_only=False, report_timing_details=True, report_capacitance=True, report_transition=True)
+2026-02-17 11:51:44 | PySTA.__main__ | INFO | main.py:158 | Application initialized successfully
+2026-02-17 11:51:45 | PySTA.Src.utils.config_loader | INFO | config_loader.py:76 | No configuration file found. Using defaults.
+2026-02-17 11:51:45 | PySTA.Src.utils.config_loader | INFO | config_loader.py:76 | No configuration file found. Using defaults.
+2026-02-17 11:51:50 | PySTA.__main__ | ERROR | main.py:133 | Failed to create main window: name 'QLabel' is not defined
+Traceback (most recent call last):
+  File "D:\MY_Python_Projects\PD_Tool\PySTA\main.py", line 122, in create_main_window
+    self.main_window = MainWindow()
+                       ^^^^^^^^^^^^
+  File "D:\MY_Python_Projects\PD_Tool\PySTA\Src\gui\main_window.py", line 168, in __init__
+    self.setup_status_bar()
+  File "D:\MY_Python_Projects\PD_Tool\PySTA\Src\gui\main_window.py", line 248, in setup_status_bar
+    self.status_label = QLabel("Ready")
+                        ^^^^^^
+NameError: name 'QLabel' is not defined
+2026-02-17 11:51:55 | PySTA.__main__ | INFO | main.py:163 | Application exiting with code 0
+2026-02-17 11:51:55 | PySTA.__main__ | INFO | main.py:174 | PySTA shutdown complete
+2026-02-17 11:51:55 | PySTA.__main__ | INFO | main.py:182 | Cleanup completed

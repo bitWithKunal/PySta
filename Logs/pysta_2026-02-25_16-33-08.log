@@ -1,0 +1,17 @@
+2026-02-25 16:33:08 | PySTA | INFO | logger.py:70 | Logger initialized. Log file: Logs\pysta_2026-02-25_16-33-08.log
+2026-02-25 16:33:26 | PySTA.__main__ | INFO | main.py:150 | ============================================================
+2026-02-25 16:33:26 | PySTA.__main__ | INFO | main.py:151 | PySTA Starting
+2026-02-25 16:33:26 | PySTA.__main__ | INFO | main.py:152 | ============================================================
+2026-02-25 16:33:26 | PySTA.__main__ | INFO | main.py:153 | Python version: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+2026-02-25 16:33:26 | PySTA.__main__ | INFO | main.py:154 | Log file: Logs\pysta_2026-02-25_16-33-08.log
+2026-02-25 16:33:27 | PySTA.Src.utils.config_loader | INFO | config_loader.py:76 | No configuration file found. Using defaults.
+2026-02-25 16:33:27 | PySTA.__main__ | INFO | main.py:105 | Configuration loaded: STAConfig(enable_setup=True, enable_hold=True, enable_ocv=False, enable_si=False, enable_derating=False, ocv_derate_data=1.0, ocv_derate_clock=1.0, ocv_derate_early=0.95, ocv_derate_late=1.05, si_aggressor_coupling_threshold=0.1, si_noise_margin=0.2, max_paths_per_clock=10, max_path_depth=100, report_violations_only=False, report_timing_details=True, report_capacitance=True, report_transition=True)
+2026-02-25 16:33:27 | PySTA.__main__ | INFO | main.py:158 | Application initialized successfully
+2026-02-25 16:33:29 | PySTA.Src.utils.config_loader | INFO | config_loader.py:76 | No configuration file found. Using defaults.
+2026-02-25 16:33:29 | PySTA.Src.utils.config_loader | INFO | config_loader.py:76 | No configuration file found. Using defaults.
+2026-02-25 16:33:31 | PySTA.Src.gui.main_window | INFO | main_window.py:221 | PySTA main window ready
+2026-02-25 16:33:33 | PySTA.__main__ | INFO | main.py:130 | Main window created and displayed
+2026-02-25 16:33:43 | PySTA.Src.gui.main_window | INFO | main_window.py:1280 | Application exiting
+2026-02-25 16:33:43 | PySTA.__main__ | INFO | main.py:163 | Application exiting with code 0
+2026-02-25 16:33:43 | PySTA.__main__ | INFO | main.py:174 | PySTA shutdown complete
+2026-02-25 16:33:43 | PySTA.__main__ | INFO | main.py:182 | Cleanup completed

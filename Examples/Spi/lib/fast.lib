@@ -1,0 +1,238 @@
+/*
+ * Simplified Fast corner Liberty library for SPI example
+ * Using simple scalar timing for guaranteed parsing
+ */
+
+library (fast) {
+    delay_model : "table_lookup";
+    time_unit : "1ns";
+    voltage_unit : "1V";
+    current_unit : "1mA";
+    capacitance_unit : "1pf";
+
+    /* Inverter */
+    cell (INV_X1) {
+        area : 1;
+        pin (A) {
+            direction : input;
+            capacitance : 0.002;
+        }
+        pin (Y) {
+            direction : output;
+            capacitance : 0.003;
+            function : "(!A)";
+            timing () {
+                related_pin : "A";
+                timing_sense : negative_unate;
+                cell_rise (scalar) {
+                    values : "0.05";
+                }
+                cell_fall (scalar) {
+                    values : "0.04";
+                }
+                rise_transition (scalar) {
+                    values : "0.03";
+                }
+                fall_transition (scalar) {
+                    values : "0.02";
+                }
+            }
+        }
+    }
+
+    /* Buffer */
+    cell (BUF_X1) {
+        area : 1.2;
+        pin (A) {
+            direction : input;
+            capacitance : 0.0025;
+        }
+        pin (Y) {
+            direction : output;
+            capacitance : 0.0035;
+            function : "A";
+            timing () {
+                related_pin : "A";
+                timing_sense : positive_unate;
+                cell_rise (scalar) {
+                    values : "0.06";
+                }
+                cell_fall (scalar) {
+                    values : "0.05";
+                }
+                rise_transition (scalar) {
+                    values : "0.035";
+                }
+                fall_transition (scalar) {
+                    values : "0.03";
+                }
+            }
+        }
+    }
+
+    /* 2-input NAND */
+    cell (NAND2_X1) {
+        area : 1.5;
+        pin (A) {
+            direction : input;
+            capacitance : 0.003;
+        }
+        pin (B) {
+            direction : input;
+            capacitance : 0.003;
+        }
+        pin (Y) {
+            direction : output;
+            capacitance : 0.004;
+            function : "(!(A & B))";
+            timing () {
+                related_pin : "A";
+                timing_sense : negative_unate;
+                cell_rise (scalar) {
+                    values : "0.08";
+                }
+                cell_fall (scalar) {
+                    values : "0.06";
+                }
+                rise_transition (scalar) {
+                    values : "0.04";
+                }
+                fall_transition (scalar) {
+                    values : "0.03";
+                }
+            }
+            timing () {
+                related_pin : "B";
+                timing_sense : negative_unate;
+                cell_rise (scalar) {
+                    values : "0.08";
+                }
+                cell_fall (scalar) {
+                    values : "0.06";
+                }
+                rise_transition (scalar) {
+                    values : "0.04";
+                }
+                fall_transition (scalar) {
+                    values : "0.03";
+                }
+            }
+        }
+    }
+
+    /* 2-input NOR */
+    cell (NOR2_X1) {
+        area : 1.5;
+        pin (A) {
+            direction : input;
+            capacitance : 0.003;
+        }
+        pin (B) {
+            direction : input;
+            capacitance : 0.003;
+        }
+        pin (Y) {
+            direction : output;
+            capacitance : 0.004;
+            function : "(!(A | B))";
+            timing () {
+                related_pin : "A";
+                timing_sense : negative_unate;
+                cell_rise (scalar) {
+                    values : "0.09";
+                }
+                cell_fall (scalar) {
+                    values : "0.07";
+                }
+                rise_transition (scalar) {
+                    values : "0.045";
+                }
+                fall_transition (scalar) {
+                    values : "0.035";
+                }
+            }
+        }
+    }
+
+    /* D Flip-Flop with setup/hold */
+    cell (DFF_X1) {
+        area : 5;
+        ff (IQ, IQN) {
+            next_state : "D";
+            clocked_on : "CK";
+        }
+        pin (CK) {
+            direction : input;
+            capacitance : 0.004;
+            clock : true;
+        }
+        pin (D) {
+            direction : input;
+            capacitance : 0.003;
+        }
+        pin (Q) {
+            direction : output;
+            capacitance : 0.005;
+            function : "IQ";
+            timing () {
+                related_pin : "CK";
+                timing_type : rising_edge;
+                cell_rise (scalar) {
+                    values : "0.15";
+                }
+                cell_fall (scalar) {
+                    values : "0.14";
+                }
+                rise_transition (scalar) {
+                    values : "0.06";
+                }
+                fall_transition (scalar) {
+                    values : "0.05";
+                }
+            }
+        }
+        pin (QN) {
+            direction : output;
+            capacitance : 0.005;
+            function : "IQN";
+            timing () {
+                related_pin : "CK";
+                timing_type : rising_edge;
+                cell_rise (scalar) {
+                    values : "0.16";
+                }
+                cell_fall (scalar) {
+                    values : "0.15";
+                }
+                rise_transition (scalar) {
+                    values : "0.065";
+                }
+                fall_transition (scalar) {
+                    values : "0.055";
+                }
+            }
+        }
+        /* Setup time */
+        timing () {
+            related_pin : "CK";
+            timing_type : setup_rising;
+            rise_constraint (scalar) {
+                values : "0.10";
+            }
+            fall_constraint (scalar) {
+                values : "0.10";
+            }
+        }
+        /* Hold time */
+        timing () {
+            related_pin : "CK";
+            timing_type : hold_rising;
+            rise_constraint (scalar) {
+                values : "0.05";
+            }
+            fall_constraint (scalar) {
+                values : "0.05";
+            }
+        }
+    }
+}

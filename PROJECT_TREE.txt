@@ -1,0 +1,194 @@
+PROJECT ROOT : D:\MY_Python_Projects\PD_Tool\PySTA
+|
+|   README.md
+|   extract.py
+|   main.py
+|   requirements.txt
++---Assets
++---Bin
++---Builds
++---Config
++---Dist
++---Docs
++---Examples
+|   \---Spi
+|       |   readme.md
+|       +---lib
+|       |   |   fast.lib
+|       |   |   slow.lib
+|       +---netlist
+|       |   |   spi_slave_netlist.v
+|       +---rtl
+|       |   |   spi_slave.v
+|       \---sdc
+|           |   sdc_slave.sdc
++---Inputs
++---Logs
+|   |   README.txt
++---Reports
+|   |   README.txt
+|   |   hold_report_20260217_140448.rpt
+|   |   hold_report_20260217_140522.rpt
+|   |   hold_report_20260217_140549.rpt
+|   |   hold_report_20260217_141309.rpt
+|   |   hold_report_20260217_141322.rpt
+|   |   hold_report_20260217_160307.rpt
+|   |   hold_report_20260217_160314.rpt
+|   |   hold_report_20260217_160318.rpt
+|   |   hold_report_20260217_172105.rpt
+|   |   hold_report_20260217_172114.rpt
+|   |   hold_report_20260217_172120.rpt
+|   |   hold_report_20260218_091157.rpt
+|   |   hold_report_20260218_091215.rpt
+|   |   hold_report_20260218_092736.rpt
+|   |   hold_report_20260218_093624.rpt
+|   |   hold_report_20260218_093632.rpt
+|   |   hold_report_20260218_093643.rpt
+|   |   hold_report_20260218_093910.rpt
+|   |   hold_report_20260218_095045.rpt
+|   |   setup_report_20260217_140448.rpt
+|   |   setup_report_20260217_140522.rpt
+|   |   setup_report_20260217_140549.rpt
+|   |   setup_report_20260217_141309.rpt
+|   |   setup_report_20260217_141322.rpt
+|   |   setup_report_20260217_160307.rpt
+|   |   setup_report_20260217_160314.rpt
+|   |   setup_report_20260217_160318.rpt
+|   |   setup_report_20260217_172105.rpt
+|   |   setup_report_20260217_172114.rpt
+|   |   setup_report_20260217_172120.rpt
+|   |   setup_report_20260218_091157.rpt
+|   |   setup_report_20260218_091215.rpt
+|   |   setup_report_20260218_092736.rpt
+|   |   setup_report_20260218_093624.rpt
+|   |   setup_report_20260218_093632.rpt
+|   |   setup_report_20260218_093643.rpt
+|   |   setup_report_20260218_093910.rpt
+|   |   setup_report_20260218_095045.rpt
+|   |   summary_20260217_140448.txt
+|   |   summary_20260217_140522.txt
+|   |   summary_20260217_140549.txt
+|   |   summary_20260217_141309.txt
+|   |   summary_20260217_141322.txt
+|   |   summary_20260217_160307.txt
+|   |   summary_20260217_160314.txt
+|   |   summary_20260217_160318.txt
+|   |   summary_20260217_172105.txt
+|   |   summary_20260217_172114.txt
+|   |   summary_20260217_172120.txt
+|   |   summary_20260218_091157.txt
+|   |   summary_20260218_091215.txt
+|   |   summary_20260218_092736.txt
+|   |   summary_20260218_093624.txt
+|   |   summary_20260218_093632.txt
+|   |   summary_20260218_093643.txt
+|   |   summary_20260218_093910.txt
+|   |   summary_20260218_095045.txt
+|   |   timing_data_20260217_140448.json
+|   |   timing_data_20260217_140522.json
+|   |   timing_data_20260217_140549.json
+|   |   timing_data_20260217_141309.json
+|   |   timing_data_20260217_141322.json
+|   |   timing_data_20260217_160307.json
+|   |   timing_data_20260217_160314.json
+|   |   timing_data_20260217_160318.json
+|   |   timing_data_20260217_172105.json
+|   |   timing_data_20260217_172114.json
+|   |   timing_data_20260217_172120.json
+|   |   timing_data_20260218_091157.json
+|   |   timing_data_20260218_091215.json
+|   |   timing_data_20260218_092736.json
+|   |   timing_data_20260218_093624.json
+|   |   timing_data_20260218_093632.json
+|   |   timing_data_20260218_093643.json
+|   |   timing_data_20260218_093910.json
+|   |   timing_data_20260218_095045.json
+|   |   timing_report_20260217_140448.xlsx
+|   |   timing_report_20260217_140522.xlsx
+|   |   timing_report_20260217_140549.xlsx
+|   |   timing_report_20260217_141309.xlsx
+|   |   timing_report_20260217_141322.xlsx
+|   |   timing_report_20260217_160307.xlsx
+|   |   timing_report_20260217_160314.xlsx
+|   |   timing_report_20260217_160318.xlsx
+|   |   timing_report_20260217_172105.xlsx
+|   |   timing_report_20260217_172114.xlsx
+|   |   timing_report_20260217_172120.xlsx
+|   |   timing_report_20260218_091157.xlsx
+|   |   timing_report_20260218_091215.xlsx
+|   |   timing_report_20260218_092736.xlsx
+|   |   timing_report_20260218_093624.xlsx
+|   |   timing_report_20260218_093632.xlsx
+|   |   timing_report_20260218_093643.xlsx
+|   |   timing_report_20260218_093910.xlsx
+|   |   timing_report_20260218_095045.xlsx
++---Resources
++---Src
+|   |   __init__.py
+|   +---gui
+|   |   |   __init__.py
+|   |   |   dark_theme.py
+|   |   |   file_loader_widget.py
+|   |   |   main_window.py
+|   |   |   options_panel.py
+|   |   |   results_panel.py
+|   |   |   timing_panel.py
+|   +---liberty_parser
+|   |   |   __init__.py
+|   |   |   cell_library.py
+|   |   |   liberty_parser.py
+|   |   |   timing_arc_extractor.py
+|   +---ocv_engine
+|   |   |   __init__.py
+|   |   |   derate_manager.py
+|   |   |   ocv_analyzer.py
+|   |   |   variation_models.py
+|   +---plotting_engine
+|   |   |   __init__.py
+|   |   |   clock_waveform_plotter.py
+|   |   |   path_visualizer.py
+|   |   |   timing_plotter.py
+|   +---report_engine
+|   |   |   __init__.py
+|   |   |   excel_report_writer.py
+|   |   |   report_generator.py
+|   |   |   rpt_report_writer.py
+|   |   |   summary_builder.py
+|   +---sdc_parser
+|   |   |   __init__.py
+|   |   |   clock_constraints.py
+|   |   |   sdc_parser.py
+|   |   |   timing_exceptions.py
+|   +---si_engine
+|   |   |   __init__.py
+|   |   |   fanout_noise_model.py
+|   |   |   si_analyzer.py
+|   |   |   slew_estimator.py
+|   +---sta_engine
+|   |   |   __init__.py
+|   |   |   arrival_required.py
+|   |   |   base_analyzer.py
+|   |   |   delay_calculator.py
+|   |   |   hold_analyzer.py
+|   |   |   setup_analyzer.py
+|   |   |   slack_calculator.py
+|   +---timing_graph
+|   |   |   __init__.py
+|   |   |   graph_edges.py
+|   |   |   graph_nodes.py
+|   |   |   path_extractor.py
+|   |   |   timing_graph_builder.py
+|   +---utils
+|   |   |   __init__.py
+|   |   |   config_loader.py
+|   |   |   file_utils.py
+|   |   |   logger.py
+|   |   |   time_utils.py
+|   \---verilog_parser
+|       |   __init__.py
+|       |   module_resolver.py
+|       |   netlist_builder.py
+|       |   verilog_parser.py
+\---Temp
+
+===== END OF TREE =====

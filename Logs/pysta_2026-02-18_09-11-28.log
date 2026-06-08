@@ -1,0 +1,959 @@
+2026-02-18 09:11:28 | PySTA | INFO | logger.py:70 | Logger initialized. Log file: Logs\pysta_2026-02-18_09-11-28.log
+2026-02-18 09:11:31 | PySTA.__main__ | INFO | main.py:150 | ============================================================
+2026-02-18 09:11:31 | PySTA.__main__ | INFO | main.py:151 | PySTA Starting
+2026-02-18 09:11:31 | PySTA.__main__ | INFO | main.py:152 | ============================================================
+2026-02-18 09:11:31 | PySTA.__main__ | INFO | main.py:153 | Python version: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+2026-02-18 09:11:31 | PySTA.__main__ | INFO | main.py:154 | Log file: Logs\pysta_2026-02-18_09-11-28.log
+2026-02-18 09:11:32 | PySTA.Src.utils.config_loader | INFO | config_loader.py:76 | No configuration file found. Using defaults.
+2026-02-18 09:11:32 | PySTA.__main__ | INFO | main.py:105 | Configuration loaded: STAConfig(enable_setup=True, enable_hold=True, enable_ocv=False, enable_si=False, enable_derating=False, ocv_derate_data=1.0, ocv_derate_clock=1.0, ocv_derate_early=0.95, ocv_derate_late=1.05, si_aggressor_coupling_threshold=0.1, si_noise_margin=0.2, max_paths_per_clock=10, max_path_depth=100, report_violations_only=False, report_timing_details=True, report_capacitance=True, report_transition=True)
+2026-02-18 09:11:32 | PySTA.__main__ | INFO | main.py:158 | Application initialized successfully
+2026-02-18 09:11:34 | PySTA.Src.utils.config_loader | INFO | config_loader.py:76 | No configuration file found. Using defaults.
+2026-02-18 09:11:34 | PySTA.Src.utils.config_loader | INFO | config_loader.py:76 | No configuration file found. Using defaults.
+2026-02-18 09:11:35 | PySTA.Src.gui.main_window | INFO | main_window.py:221 | PySTA main window ready
+2026-02-18 09:11:36 | PySTA.__main__ | INFO | main.py:130 | Main window created and displayed
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | INFO | liberty_parser.py:55 | Parsing Liberty file: C:/Users/CodewithKunal/Documents/fast.lib
+2026-02-18 09:11:54 | PySTA.Src.utils.file_utils | DEBUG | file_utils.py:105 | Successfully read C:/Users/CodewithKunal/Documents/fast.lib with utf-8 encoding
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: library at C:\Users\CodewithKunal\Documents\fast.lib:1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: delay_model = table_lookup
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: time_unit = 1ns
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: voltage_unit = 1V
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: current_unit = 1mA
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance_unit = 1pf
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: leakage_power_unit = 1nW
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: operating_conditions at C:\Users\CodewithKunal\Documents\fast.lib:8
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: process = 0.8
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: temperature = -40.0
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: voltage = 1.1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: operating_conditions at C:\Users\CodewithKunal\Documents\fast.lib:12
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: default_operating_conditions = fast
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell at C:\Users\CodewithKunal\Documents\fast.lib:14
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: area = 1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: cell_footprint = inv
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:17
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.002
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:20
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:21
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.003
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = (!A)
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\fast.lib:25
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = A
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_sense = negative_unate
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:28
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:40
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: fall_transition at C:\Users\CodewithKunal\Documents\fast.lib:41
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: fall_transition at C:\Users\CodewithKunal\Documents\fast.lib:53
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\fast.lib:54
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:55
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:360 | Found cell: INV_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell at C:\Users\CodewithKunal\Documents\fast.lib:56
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell at C:\Users\CodewithKunal\Documents\fast.lib:57
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: area = 1.2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: cell_footprint = buf
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:60
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0025
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:63
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:64
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0035
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = A
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\fast.lib:68
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = A
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_sense = positive_unate
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:71
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:83
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\fast.lib:84
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:85
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:360 | Found cell: BUF_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell at C:\Users\CodewithKunal\Documents\fast.lib:86
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell at C:\Users\CodewithKunal\Documents\fast.lib:87
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: area = 1.5
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: cell_footprint = nand2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:90
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.003
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:93
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:94
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.003
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:97
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:98
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.004
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = (!(A & B))
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\fast.lib:102
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = A
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_sense = negative_unate
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:105
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:117
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\fast.lib:118
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\fast.lib:119
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = B
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_sense = negative_unate
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:122
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:134
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\fast.lib:135
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:136
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:360 | Found cell: NAND2_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell at C:\Users\CodewithKunal\Documents\fast.lib:137
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell at C:\Users\CodewithKunal\Documents\fast.lib:138
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: area = 1.5
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: cell_footprint = nor2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:141
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.003
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:144
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:145
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.003
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:148
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:149
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.004
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = (!(A | B))
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\fast.lib:153
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = A
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_sense = negative_unate
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:156
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:168
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\fast.lib:169
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:170
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:360 | Found cell: NOR2_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell at C:\Users\CodewithKunal\Documents\fast.lib:171
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell at C:\Users\CodewithKunal\Documents\fast.lib:172
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: area = 5
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: cell_footprint = dff
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: ff at C:\Users\CodewithKunal\Documents\fast.lib:175
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: next_state = D
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: clocked_on = CK
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: clear = RN
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: ff at C:\Users\CodewithKunal\Documents\fast.lib:179
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:180
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.004
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: clock = True
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:184
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:185
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.003
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:188
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:189
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.003
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:192
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:193
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.005
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = IQ
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\fast.lib:197
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = CK
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_type = rising_edge
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:200
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:212
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_fall at C:\Users\CodewithKunal\Documents\fast.lib:213
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_fall at C:\Users\CodewithKunal\Documents\fast.lib:225
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\fast.lib:226
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:227
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:228
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.005
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = IQN
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\fast.lib:232
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = CK
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_type = rising_edge
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:235
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:247
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\fast.lib:248
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:249
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\fast.lib:250
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = CK
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_type = setup_rising
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: rise_constraint at C:\Users\CodewithKunal\Documents\fast.lib:253
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: rise_constraint at C:\Users\CodewithKunal\Documents\fast.lib:264
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: fall_constraint at C:\Users\CodewithKunal\Documents\fast.lib:265
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: fall_constraint at C:\Users\CodewithKunal\Documents\fast.lib:276
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\fast.lib:277
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\fast.lib:278
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = CK
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_type = hold_rising
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: rise_constraint at C:\Users\CodewithKunal\Documents\fast.lib:281
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: rise_constraint at C:\Users\CodewithKunal\Documents\fast.lib:292
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: fall_constraint at C:\Users\CodewithKunal\Documents\fast.lib:293
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: fall_constraint at C:\Users\CodewithKunal\Documents\fast.lib:304
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\fast.lib:305
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\fast.lib:306
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = RN
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_type = clear
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:309
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: values = 0.05
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:311
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_fall at C:\Users\CodewithKunal\Documents\fast.lib:312
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: values = 0.04
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_fall at C:\Users\CodewithKunal\Documents\fast.lib:314
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\fast.lib:315
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:360 | Found cell: DFF_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell at C:\Users\CodewithKunal\Documents\fast.lib:316
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: library at C:\Users\CodewithKunal\Documents\fast.lib:317
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:534 | Built 5 cells for library fast
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.timing_arc_extractor | DEBUG | timing_arc_extractor.py:55 | Extracted 0 timing arcs for cell INV_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.timing_arc_extractor | DEBUG | timing_arc_extractor.py:55 | Extracted 0 timing arcs for cell BUF_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.timing_arc_extractor | DEBUG | timing_arc_extractor.py:55 | Extracted 0 timing arcs for cell NAND2_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.timing_arc_extractor | DEBUG | timing_arc_extractor.py:55 | Extracted 0 timing arcs for cell NOR2_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.timing_arc_extractor | DEBUG | timing_arc_extractor.py:55 | Extracted 0 timing arcs for cell DFF_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | INFO | liberty_parser.py:88 | Successfully parsed 5 cells from C:/Users/CodewithKunal/Documents/fast.lib
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:89 | Parse stats: {'cells': 5, 'pins': 15, 'timing_arcs': 0, 'errors': 0, 'warnings': 0}
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | INFO | liberty_parser.py:55 | Parsing Liberty file: C:/Users/CodewithKunal/Documents/slow.lib
+2026-02-18 09:11:54 | PySTA.Src.utils.file_utils | DEBUG | file_utils.py:105 | Successfully read C:/Users/CodewithKunal/Documents/slow.lib with utf-8 encoding
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: library at C:\Users\CodewithKunal\Documents\slow.lib:1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: delay_model = table_lookup
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: time_unit = 1ns
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: voltage_unit = 1V
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: current_unit = 1mA
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance_unit = 1pf
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: leakage_power_unit = 1nW
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: operating_conditions at C:\Users\CodewithKunal\Documents\slow.lib:8
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: process = 1.2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: temperature = 125.0
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: voltage = 0.9
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: operating_conditions at C:\Users\CodewithKunal\Documents\slow.lib:12
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: default_operating_conditions = slow
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell at C:\Users\CodewithKunal\Documents\slow.lib:14
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: area = 1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: cell_footprint = inv
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:17
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0022
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:20
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:21
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0033
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = (!A)
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\slow.lib:25
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = A
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_sense = negative_unate
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:28
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:40
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\slow.lib:41
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:42
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:360 | Found cell: INV_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell at C:\Users\CodewithKunal\Documents\slow.lib:43
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell at C:\Users\CodewithKunal\Documents\slow.lib:44
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: area = 1.2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: cell_footprint = buf
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:47
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0028
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:50
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:51
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0039
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = A
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\slow.lib:55
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = A
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_sense = positive_unate
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:58
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:70
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\slow.lib:71
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:72
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:360 | Found cell: BUF_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell at C:\Users\CodewithKunal\Documents\slow.lib:73
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell at C:\Users\CodewithKunal\Documents\slow.lib:74
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: area = 1.5
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: cell_footprint = nand2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:77
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0033
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:80
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:81
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0033
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:84
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:85
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0044
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = (!(A & B))
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\slow.lib:89
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = A
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_sense = negative_unate
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:92
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:104
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\slow.lib:105
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:106
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:360 | Found cell: NAND2_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell at C:\Users\CodewithKunal\Documents\slow.lib:107
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell at C:\Users\CodewithKunal\Documents\slow.lib:108
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: area = 1.5
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: cell_footprint = nor2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:111
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0033
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:114
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:115
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0033
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:118
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:119
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0044
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = (!(A | B))
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\slow.lib:123
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = A
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_sense = negative_unate
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:126
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:138
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\slow.lib:139
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:140
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:360 | Found cell: NOR2_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell at C:\Users\CodewithKunal\Documents\slow.lib:141
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell at C:\Users\CodewithKunal\Documents\slow.lib:142
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: area = 5
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: cell_footprint = dff
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: ff at C:\Users\CodewithKunal\Documents\slow.lib:145
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: next_state = D
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: clocked_on = CK
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: clear = RN
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: ff at C:\Users\CodewithKunal\Documents\slow.lib:149
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:150
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0045
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: clock = True
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:154
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:155
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0035
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:158
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:159
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0035
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:162
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:163
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0055
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = IQ
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\slow.lib:167
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = CK
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_type = rising_edge
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:170
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:182
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\slow.lib:183
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:184
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\slow.lib:185
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = CK
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_type = setup_rising
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: rise_constraint at C:\Users\CodewithKunal\Documents\slow.lib:188
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: rise_constraint at C:\Users\CodewithKunal\Documents\slow.lib:199
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: fall_constraint at C:\Users\CodewithKunal\Documents\slow.lib:200
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: fall_constraint at C:\Users\CodewithKunal\Documents\slow.lib:211
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\slow.lib:212
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\slow.lib:213
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = CK
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_type = hold_rising
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: rise_constraint at C:\Users\CodewithKunal\Documents\slow.lib:216
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: rise_constraint at C:\Users\CodewithKunal\Documents\slow.lib:227
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: fall_constraint at C:\Users\CodewithKunal\Documents\slow.lib:228
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: fall_constraint at C:\Users\CodewithKunal\Documents\slow.lib:239
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\slow.lib:240
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\slow.lib:241
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = RN
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_type = clear
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:244
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: values = 0.08
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:246
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_fall at C:\Users\CodewithKunal\Documents\slow.lib:247
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: values = 0.07
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_fall at C:\Users\CodewithKunal\Documents\slow.lib:249
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\slow.lib:250
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:360 | Found cell: DFF_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell at C:\Users\CodewithKunal\Documents\slow.lib:251
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: library at C:\Users\CodewithKunal\Documents\slow.lib:252
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:534 | Built 5 cells for library slow
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.timing_arc_extractor | DEBUG | timing_arc_extractor.py:55 | Extracted 0 timing arcs for cell INV_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.timing_arc_extractor | DEBUG | timing_arc_extractor.py:55 | Extracted 0 timing arcs for cell BUF_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.timing_arc_extractor | DEBUG | timing_arc_extractor.py:55 | Extracted 0 timing arcs for cell NAND2_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.timing_arc_extractor | DEBUG | timing_arc_extractor.py:55 | Extracted 0 timing arcs for cell NOR2_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.timing_arc_extractor | DEBUG | timing_arc_extractor.py:55 | Extracted 0 timing arcs for cell DFF_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | INFO | liberty_parser.py:88 | Successfully parsed 5 cells from C:/Users/CodewithKunal/Documents/slow.lib
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:89 | Parse stats: {'cells': 5, 'pins': 14, 'timing_arcs': 0, 'errors': 0, 'warnings': 0}
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | INFO | liberty_parser.py:102 | Parsing 2 Liberty files
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | INFO | liberty_parser.py:55 | Parsing Liberty file: C:/Users/CodewithKunal/Documents/fast.lib
+2026-02-18 09:11:54 | PySTA.Src.utils.file_utils | DEBUG | file_utils.py:105 | Successfully read C:/Users/CodewithKunal/Documents/fast.lib with utf-8 encoding
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: library at C:\Users\CodewithKunal\Documents\fast.lib:1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: delay_model = table_lookup
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: time_unit = 1ns
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: voltage_unit = 1V
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: current_unit = 1mA
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance_unit = 1pf
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: leakage_power_unit = 1nW
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: operating_conditions at C:\Users\CodewithKunal\Documents\fast.lib:8
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: process = 0.8
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: temperature = -40.0
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: voltage = 1.1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: operating_conditions at C:\Users\CodewithKunal\Documents\fast.lib:12
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: default_operating_conditions = fast
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell at C:\Users\CodewithKunal\Documents\fast.lib:14
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: area = 1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: cell_footprint = inv
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:17
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.002
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:20
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:21
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.003
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = (!A)
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\fast.lib:25
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = A
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_sense = negative_unate
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:28
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:40
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: fall_transition at C:\Users\CodewithKunal\Documents\fast.lib:41
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: fall_transition at C:\Users\CodewithKunal\Documents\fast.lib:53
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\fast.lib:54
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:55
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:360 | Found cell: INV_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell at C:\Users\CodewithKunal\Documents\fast.lib:56
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell at C:\Users\CodewithKunal\Documents\fast.lib:57
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: area = 1.2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: cell_footprint = buf
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:60
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0025
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:63
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:64
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0035
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = A
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\fast.lib:68
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = A
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_sense = positive_unate
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:71
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:83
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\fast.lib:84
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:85
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:360 | Found cell: BUF_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell at C:\Users\CodewithKunal\Documents\fast.lib:86
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell at C:\Users\CodewithKunal\Documents\fast.lib:87
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: area = 1.5
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: cell_footprint = nand2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:90
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.003
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:93
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:94
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.003
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:97
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:98
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.004
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = (!(A & B))
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\fast.lib:102
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = A
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_sense = negative_unate
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:105
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:117
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\fast.lib:118
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\fast.lib:119
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = B
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_sense = negative_unate
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:122
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:134
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\fast.lib:135
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:136
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:360 | Found cell: NAND2_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell at C:\Users\CodewithKunal\Documents\fast.lib:137
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell at C:\Users\CodewithKunal\Documents\fast.lib:138
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: area = 1.5
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: cell_footprint = nor2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:141
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.003
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:144
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:145
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.003
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:148
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:149
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.004
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = (!(A | B))
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\fast.lib:153
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = A
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_sense = negative_unate
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:156
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:168
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\fast.lib:169
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:170
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:360 | Found cell: NOR2_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell at C:\Users\CodewithKunal\Documents\fast.lib:171
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell at C:\Users\CodewithKunal\Documents\fast.lib:172
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: area = 5
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: cell_footprint = dff
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: ff at C:\Users\CodewithKunal\Documents\fast.lib:175
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: next_state = D
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: clocked_on = CK
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: clear = RN
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: ff at C:\Users\CodewithKunal\Documents\fast.lib:179
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:180
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.004
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: clock = True
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:184
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:185
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.003
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:188
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:189
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.003
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:192
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:193
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.005
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = IQ
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\fast.lib:197
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = CK
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_type = rising_edge
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:200
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:212
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_fall at C:\Users\CodewithKunal\Documents\fast.lib:213
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_fall at C:\Users\CodewithKunal\Documents\fast.lib:225
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\fast.lib:226
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:227
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\fast.lib:228
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.005
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = IQN
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\fast.lib:232
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = CK
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_type = rising_edge
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:235
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:247
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\fast.lib:248
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\fast.lib:249
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\fast.lib:250
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = CK
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_type = setup_rising
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: rise_constraint at C:\Users\CodewithKunal\Documents\fast.lib:253
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: rise_constraint at C:\Users\CodewithKunal\Documents\fast.lib:264
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: fall_constraint at C:\Users\CodewithKunal\Documents\fast.lib:265
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: fall_constraint at C:\Users\CodewithKunal\Documents\fast.lib:276
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\fast.lib:277
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\fast.lib:278
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = CK
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_type = hold_rising
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: rise_constraint at C:\Users\CodewithKunal\Documents\fast.lib:281
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: rise_constraint at C:\Users\CodewithKunal\Documents\fast.lib:292
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: fall_constraint at C:\Users\CodewithKunal\Documents\fast.lib:293
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: fall_constraint at C:\Users\CodewithKunal\Documents\fast.lib:304
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\fast.lib:305
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\fast.lib:306
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = RN
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_type = clear
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:309
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: values = 0.05
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\fast.lib:311
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_fall at C:\Users\CodewithKunal\Documents\fast.lib:312
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: values = 0.04
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_fall at C:\Users\CodewithKunal\Documents\fast.lib:314
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\fast.lib:315
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:360 | Found cell: DFF_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell at C:\Users\CodewithKunal\Documents\fast.lib:316
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: library at C:\Users\CodewithKunal\Documents\fast.lib:317
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:534 | Built 5 cells for library fast
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.timing_arc_extractor | DEBUG | timing_arc_extractor.py:55 | Extracted 0 timing arcs for cell INV_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.timing_arc_extractor | DEBUG | timing_arc_extractor.py:55 | Extracted 0 timing arcs for cell BUF_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.timing_arc_extractor | DEBUG | timing_arc_extractor.py:55 | Extracted 0 timing arcs for cell NAND2_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.timing_arc_extractor | DEBUG | timing_arc_extractor.py:55 | Extracted 0 timing arcs for cell NOR2_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.timing_arc_extractor | DEBUG | timing_arc_extractor.py:55 | Extracted 0 timing arcs for cell DFF_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | INFO | liberty_parser.py:88 | Successfully parsed 5 cells from C:/Users/CodewithKunal/Documents/fast.lib
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:89 | Parse stats: {'cells': 5, 'pins': 15, 'timing_arcs': 0, 'errors': 0, 'warnings': 0}
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | INFO | liberty_parser.py:55 | Parsing Liberty file: C:/Users/CodewithKunal/Documents/slow.lib
+2026-02-18 09:11:54 | PySTA.Src.utils.file_utils | DEBUG | file_utils.py:105 | Successfully read C:/Users/CodewithKunal/Documents/slow.lib with utf-8 encoding
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: library at C:\Users\CodewithKunal\Documents\slow.lib:1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: delay_model = table_lookup
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: time_unit = 1ns
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: voltage_unit = 1V
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: current_unit = 1mA
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance_unit = 1pf
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: leakage_power_unit = 1nW
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: operating_conditions at C:\Users\CodewithKunal\Documents\slow.lib:8
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: process = 1.2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: temperature = 125.0
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: voltage = 0.9
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: operating_conditions at C:\Users\CodewithKunal\Documents\slow.lib:12
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: default_operating_conditions = slow
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell at C:\Users\CodewithKunal\Documents\slow.lib:14
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: area = 1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: cell_footprint = inv
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:17
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0022
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:20
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:21
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0033
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = (!A)
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\slow.lib:25
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = A
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_sense = negative_unate
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:28
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:40
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\slow.lib:41
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:42
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:360 | Found cell: INV_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell at C:\Users\CodewithKunal\Documents\slow.lib:43
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell at C:\Users\CodewithKunal\Documents\slow.lib:44
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: area = 1.2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: cell_footprint = buf
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:47
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0028
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:50
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:51
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0039
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = A
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\slow.lib:55
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = A
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_sense = positive_unate
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:58
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:70
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\slow.lib:71
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:72
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:360 | Found cell: BUF_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell at C:\Users\CodewithKunal\Documents\slow.lib:73
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell at C:\Users\CodewithKunal\Documents\slow.lib:74
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: area = 1.5
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: cell_footprint = nand2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:77
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0033
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:80
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:81
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0033
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:84
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:85
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0044
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = (!(A & B))
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\slow.lib:89
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = A
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_sense = negative_unate
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:92
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:104
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\slow.lib:105
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:106
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:360 | Found cell: NAND2_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell at C:\Users\CodewithKunal\Documents\slow.lib:107
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell at C:\Users\CodewithKunal\Documents\slow.lib:108
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: area = 1.5
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: cell_footprint = nor2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:111
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0033
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:114
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:115
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0033
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:118
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:119
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0044
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = (!(A | B))
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\slow.lib:123
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = A
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_sense = negative_unate
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:126
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:138
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\slow.lib:139
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:140
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:360 | Found cell: NOR2_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell at C:\Users\CodewithKunal\Documents\slow.lib:141
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell at C:\Users\CodewithKunal\Documents\slow.lib:142
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: area = 5
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: cell_footprint = dff
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: ff at C:\Users\CodewithKunal\Documents\slow.lib:145
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: next_state = D
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: clocked_on = CK
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: clear = RN
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: ff at C:\Users\CodewithKunal\Documents\slow.lib:149
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:150
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0045
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: clock = True
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:154
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:155
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0035
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:158
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:159
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = input
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0035
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:162
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: pin at C:\Users\CodewithKunal\Documents\slow.lib:163
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: direction = output
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: capacitance = 0.0055
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: function = IQ
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\slow.lib:167
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = CK
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_type = rising_edge
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:170
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_2
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:182
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\slow.lib:183
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: pin at C:\Users\CodewithKunal\Documents\slow.lib:184
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\slow.lib:185
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = CK
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_type = setup_rising
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: rise_constraint at C:\Users\CodewithKunal\Documents\slow.lib:188
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: rise_constraint at C:\Users\CodewithKunal\Documents\slow.lib:199
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: fall_constraint at C:\Users\CodewithKunal\Documents\slow.lib:200
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: fall_constraint at C:\Users\CodewithKunal\Documents\slow.lib:211
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\slow.lib:212
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\slow.lib:213
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = CK
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_type = hold_rising
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: rise_constraint at C:\Users\CodewithKunal\Documents\slow.lib:216
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: rise_constraint at C:\Users\CodewithKunal\Documents\slow.lib:227
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: fall_constraint at C:\Users\CodewithKunal\Documents\slow.lib:228
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: index_1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:395 | Complex attribute: values
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: fall_constraint at C:\Users\CodewithKunal\Documents\slow.lib:239
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\slow.lib:240
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: timing at C:\Users\CodewithKunal\Documents\slow.lib:241
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: related_pin = RN
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: timing_type = clear
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:244
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: values = 0.08
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_rise at C:\Users\CodewithKunal\Documents\slow.lib:246
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:347 | Opened group: cell_fall at C:\Users\CodewithKunal\Documents\slow.lib:247
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:374 | Attribute: values = 0.07
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell_fall at C:\Users\CodewithKunal\Documents\slow.lib:249
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: timing at C:\Users\CodewithKunal\Documents\slow.lib:250
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:360 | Found cell: DFF_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: cell at C:\Users\CodewithKunal\Documents\slow.lib:251
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:366 | Closed group: library at C:\Users\CodewithKunal\Documents\slow.lib:252
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:534 | Built 5 cells for library slow
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.timing_arc_extractor | DEBUG | timing_arc_extractor.py:55 | Extracted 0 timing arcs for cell INV_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.timing_arc_extractor | DEBUG | timing_arc_extractor.py:55 | Extracted 0 timing arcs for cell BUF_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.timing_arc_extractor | DEBUG | timing_arc_extractor.py:55 | Extracted 0 timing arcs for cell NAND2_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.timing_arc_extractor | DEBUG | timing_arc_extractor.py:55 | Extracted 0 timing arcs for cell NOR2_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.timing_arc_extractor | DEBUG | timing_arc_extractor.py:55 | Extracted 0 timing arcs for cell DFF_X1
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | INFO | liberty_parser.py:88 | Successfully parsed 5 cells from C:/Users/CodewithKunal/Documents/slow.lib
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | DEBUG | liberty_parser.py:89 | Parse stats: {'cells': 5, 'pins': 14, 'timing_arcs': 0, 'errors': 0, 'warnings': 0}
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:127 | Cell 'INV_X1' already exists, renaming to 'slow__INV_X1'
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:127 | Cell 'BUF_X1' already exists, renaming to 'slow__BUF_X1'
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:127 | Cell 'NAND2_X1' already exists, renaming to 'slow__NAND2_X1'
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:127 | Cell 'NOR2_X1' already exists, renaming to 'slow__NOR2_X1'
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:127 | Cell 'DFF_X1' already exists, renaming to 'slow__DFF_X1'
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | INFO | liberty_parser.py:143 | Merged library: 10 total cells from 2 files
+2026-02-18 09:11:54 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:145 | Cell name conflicts resolved: 5 cells renamed
+2026-02-18 09:11:54 | PySTA.Src.verilog_parser.netlist_builder | INFO | netlist_builder.py:93 | Netlist builder initialized
+2026-02-18 09:11:54 | PySTA.Src.verilog_parser.verilog_parser | INFO | verilog_parser.py:60 | Parsing Verilog file: C:/Users/CodewithKunal/Documents/spi_slave_netlist.v
+2026-02-18 09:11:54 | PySTA.Src.utils.file_utils | DEBUG | file_utils.py:105 | Successfully read C:/Users/CodewithKunal/Documents/spi_slave_netlist.v with utf-8 encoding
+2026-02-18 09:11:54 | PySTA.Src.verilog_parser.verilog_parser | DEBUG | verilog_parser.py:304 | Parsing module: spi_slave from C:\Users\CodewithKunal\Documents\spi_slave_netlist.v
+2026-02-18 09:11:54 | PySTA.Src.verilog_parser.verilog_parser | INFO | verilog_parser.py:78 | Successfully parsed modules from C:/Users/CodewithKunal/Documents/spi_slave_netlist.v
+2026-02-18 09:11:54 | PySTA.Src.verilog_parser.module_resolver | INFO | module_resolver.py:103 | Building hierarchy with top module: spi_slave
+2026-02-18 09:11:54 | PySTA.Src.sdc_parser.sdc_parser | INFO | sdc_parser.py:77 | Parsing SDC file: C:/Users/CodewithKunal/Documents/sdc_slave.sdc
+2026-02-18 09:11:54 | PySTA.Src.utils.file_utils | DEBUG | file_utils.py:105 | Successfully read C:/Users/CodewithKunal/Documents/sdc_slave.sdc with utf-8 encoding
+2026-02-18 09:11:54 | PySTA.Src.sdc_parser.sdc_parser | DEBUG | sdc_parser.py:272 | Created clock: sys_clk with period 1e-08s
+2026-02-18 09:11:54 | PySTA.Src.sdc_parser.sdc_parser | DEBUG | sdc_parser.py:272 | Created clock: spi_clk with period 2e-08s
+2026-02-18 09:11:54 | PySTA.Src.sdc_parser.sdc_parser | WARNING | sdc_parser.py:294 | Master clock not found for source: [get_ports sclk]
+2026-02-18 09:11:54 | PySTA.Src.sdc_parser.sdc_parser | DEBUG | sdc_parser.py:196 | Ignoring unknown command: set_clock_groups
+2026-02-18 09:11:54 | PySTA.Src.sdc_parser.timing_exceptions | DEBUG | timing_exceptions.py:172 | Added exception: false_path from [get_ports rst_n]
+2026-02-18 09:11:54 | PySTA.Src.sdc_parser.sdc_parser | DEBUG | sdc_parser.py:538 | Added false path: from [get_ports rst_n] to []
+2026-02-18 09:11:54 | PySTA.Src.sdc_parser.sdc_parser | DEBUG | sdc_parser.py:682 | Set operating conditions: {'analysis_type': 'on_chip_variation', 'library': 'slow', 'max_library': 'slow', 'min_library': 'fast'}
+2026-02-18 09:11:54 | PySTA.Src.sdc_parser.sdc_parser | INFO | sdc_parser.py:99 | Successfully parsed SDC file: 2 clocks, 1 exceptions
+2026-02-18 09:11:54 | PySTA.Src.gui.main_window | INFO | main_window.py:1114 | Design files loaded
+2026-02-18 09:11:56 | PySTA.Src.gui.file_loader_widget | INFO | file_loader_widget.py:666 | All files loaded successfully.
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.delay_calculator | INFO | delay_calculator.py:41 | Delay calculator initialized
+2026-02-18 09:11:57 | PySTA.Src.timing_graph.timing_graph_builder | INFO | timing_graph_builder.py:54 | Building timing graph
+2026-02-18 09:11:57 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type spi_slave not found in library
+2026-02-18 09:11:57 | PySTA.Src.timing_graph.timing_graph_builder | INFO | timing_graph_builder.py:77 | Timing graph built: 31 nodes, 0 edges
+2026-02-18 09:11:57 | PySTA.Src.timing_graph.path_extractor | INFO | path_extractor.py:27 | Path extractor initialized
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:49 | Setup analyzer initialized
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:61 | Starting setup timing analysis
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:42 | Calculating arrival times for setup analysis
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.arrival_required | ERROR | arrival_required.py:48 | No topological order found - graph may be empty
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:140 | Calculating required times for setup analysis
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.arrival_required | ERROR | arrival_required.py:146 | No reverse topological order found
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:217 | ============================================================
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:218 | Setup Timing Analysis Summary
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:219 | ============================================================
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:220 | Total paths analyzed: 0
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:221 | Violations: 0
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:222 | Worst slack: 0.000 fs
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:223 | TNS: 0.000 fs
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:224 | WNS: 0.000 fs
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:225 | ============================================================
+2026-02-18 09:11:57 | PySTA.Src.timing_graph.path_extractor | INFO | path_extractor.py:27 | Path extractor initialized
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:49 | Hold analyzer initialized
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:61 | Starting hold timing analysis
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:42 | Calculating arrival times for hold analysis
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.arrival_required | ERROR | arrival_required.py:48 | No topological order found - graph may be empty
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:140 | Calculating required times for hold analysis
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.arrival_required | ERROR | arrival_required.py:146 | No reverse topological order found
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.hold_analyzer | DEBUG | hold_analyzer.py:132 | Calculated slacks for 0 nodes
+2026-02-18 09:11:57 | PySTA.Src.sta_engine.hold_analyzer | WARNING | hold_analyzer.py:79 | No hold paths found
+2026-02-18 09:11:57 | PySTA.Src.report_engine.excel_report_writer | INFO | excel_report_writer.py:92 | Excel report written to Reports\timing_report_20260218_091157.xlsx
+2026-02-18 09:11:57 | PySTA.Src.report_engine.rpt_report_writer | INFO | rpt_report_writer.py:54 | Setup RPT report written to Reports\setup_report_20260218_091157.rpt
+2026-02-18 09:11:57 | PySTA.Src.report_engine.rpt_report_writer | INFO | rpt_report_writer.py:92 | Hold RPT report written to Reports\hold_report_20260218_091157.rpt
+2026-02-18 09:11:57 | PySTA.Src.report_engine.summary_builder | INFO | summary_builder.py:87 | Summary written to Reports\summary_20260218_091157.txt
+2026-02-18 09:11:57 | PySTA.Src.report_engine.report_generator | INFO | report_generator.py:75 | Generated 5 report files in Reports
+2026-02-18 09:11:57 | PySTA.Src.gui.results_panel | INFO | results_panel.py:252 | Results panel updated with analysis results
+2026-02-18 09:12:00 | PySTA.Src.gui.main_window | INFO | main_window.py:1131 | Analysis complete
+2026-02-18 09:12:00 | PySTA.Src.gui.main_window | INFO | main_window.py:1177 | STA analysis started (setup)
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.delay_calculator | INFO | delay_calculator.py:41 | Delay calculator initialized
+2026-02-18 09:12:15 | PySTA.Src.timing_graph.timing_graph_builder | INFO | timing_graph_builder.py:54 | Building timing graph
+2026-02-18 09:12:15 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type spi_slave not found in library
+2026-02-18 09:12:15 | PySTA.Src.timing_graph.timing_graph_builder | INFO | timing_graph_builder.py:77 | Timing graph built: 31 nodes, 0 edges
+2026-02-18 09:12:15 | PySTA.Src.timing_graph.path_extractor | INFO | path_extractor.py:27 | Path extractor initialized
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:49 | Setup analyzer initialized
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:61 | Starting setup timing analysis
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:42 | Calculating arrival times for setup analysis
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.arrival_required | ERROR | arrival_required.py:48 | No topological order found - graph may be empty
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:140 | Calculating required times for setup analysis
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.arrival_required | ERROR | arrival_required.py:146 | No reverse topological order found
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:217 | ============================================================
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:218 | Setup Timing Analysis Summary
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:219 | ============================================================
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:220 | Total paths analyzed: 0
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:221 | Violations: 0
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:222 | Worst slack: 0.000 fs
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:223 | TNS: 0.000 fs
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:224 | WNS: 0.000 fs
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:225 | ============================================================
+2026-02-18 09:12:15 | PySTA.Src.timing_graph.path_extractor | INFO | path_extractor.py:27 | Path extractor initialized
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:49 | Hold analyzer initialized
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:61 | Starting hold timing analysis
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:42 | Calculating arrival times for hold analysis
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.arrival_required | ERROR | arrival_required.py:48 | No topological order found - graph may be empty
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:140 | Calculating required times for hold analysis
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.arrival_required | ERROR | arrival_required.py:146 | No reverse topological order found
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.hold_analyzer | DEBUG | hold_analyzer.py:132 | Calculated slacks for 0 nodes
+2026-02-18 09:12:15 | PySTA.Src.sta_engine.hold_analyzer | WARNING | hold_analyzer.py:79 | No hold paths found
+2026-02-18 09:12:15 | PySTA.Src.report_engine.excel_report_writer | INFO | excel_report_writer.py:92 | Excel report written to Reports\timing_report_20260218_091215.xlsx
+2026-02-18 09:12:15 | PySTA.Src.report_engine.rpt_report_writer | INFO | rpt_report_writer.py:54 | Setup RPT report written to Reports\setup_report_20260218_091215.rpt
+2026-02-18 09:12:15 | PySTA.Src.report_engine.rpt_report_writer | INFO | rpt_report_writer.py:92 | Hold RPT report written to Reports\hold_report_20260218_091215.rpt
+2026-02-18 09:12:15 | PySTA.Src.report_engine.summary_builder | INFO | summary_builder.py:87 | Summary written to Reports\summary_20260218_091215.txt
+2026-02-18 09:12:15 | PySTA.Src.report_engine.report_generator | INFO | report_generator.py:75 | Generated 5 report files in Reports
+2026-02-18 09:12:15 | PySTA.Src.gui.results_panel | INFO | results_panel.py:252 | Results panel updated with analysis results
+2026-02-18 09:12:17 | PySTA.Src.gui.main_window | INFO | main_window.py:1131 | Analysis complete
+2026-02-18 09:12:17 | PySTA.Src.gui.main_window | INFO | main_window.py:1177 | STA analysis started (hold)

@@ -1,0 +1,43 @@
+================================================================================
+PySTA TIMING ANALYSIS SUMMARY
+================================================================================
+Generated: 2026-03-09 11:07:51
+
+DESIGN INFORMATION
+----------------------------------------
+Total nodes: 17
+Total edges: 0
+Start points: 0
+End points: 0
+
+Node types:
+  cell_input: 17
+
+CLOCK INFORMATION
+----------------------------------------
+No clock constraints available
+
+SETUP TIMING SUMMARY
+----------------------------------------
+Total paths analyzed: 0
+Violations: 0 (0.0%)
+Worst slack: 0.000 fs
+Total Negative Slack (TNS): 0.000 fs
+Worst Negative Slack (WNS): 0.000 fs
+
+HOLD TIMING SUMMARY
+----------------------------------------
+Total paths analyzed: 0
+Violations: 0 (0.0%)
+Worst slack: 0.000 fs
+Total Negative Slack (TNS): 0.000 fs
+Worst Negative Slack (WNS): 0.000 fs
+
+VIOLATION SUMMARY
+----------------------------------------
+No timing violations found.
+
+
+================================================================================
+End of Summary
+================================================================================

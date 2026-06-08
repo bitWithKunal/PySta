@@ -1,0 +1,8 @@
+2026-02-17 12:06:04 | PySTA | INFO | logger.py:70 | Logger initialized. Log file: Logs\pysta_2026-02-17_12-06-04.log
+2026-02-17 12:06:16 | PySTA.Src.utils.config_loader | INFO | config_loader.py:76 | No configuration file found. Using defaults.
+2026-02-17 12:06:16 | PySTA.__main__ | INFO | main.py:115 | 
+  [CONFIG]  Configuration loaded successfully
+  Details : STAConfig(enable_setup=True, enable_hold=True, enable_ocv=False, enable_si=False, enable_derating=False, ocv_derate_data=1.0, ocv_derate_clock=1.0, ocv_derate_early=0.95, ocv_derate_late=1.05, si_aggressor_coupling_threshold=0.1, si_noise_margin=0.2, max_paths_per_clock=10, max_path_depth=100, report_violations_only=False, report_timing_details=True, report_capacitance=True, report_transition=True)
+
+2026-02-17 12:06:17 | PySTA.Src.utils.config_loader | INFO | config_loader.py:76 | No configuration file found. Using defaults.
+2026-02-17 12:06:17 | PySTA.Src.utils.config_loader | INFO | config_loader.py:76 | No configuration file found. Using defaults.

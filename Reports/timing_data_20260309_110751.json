@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-03-09T11:07:51.566613",
+  "summary": {
+    "design": {
+      "nodes": 17,
+      "edges": 0,
+      "startpoints": 0,
+      "endpoints": 0
+    },
+    "setup": {
+      "total_paths": 0,
+      "violations": 0,
+      "worst_slack": 0,
+      "tns": 0,
+      "wns": 0
+    },
+    "hold": {
+      "total_paths": 0,
+      "violations": 0,
+      "worst_slack": 0,
+      "tns": 0,
+      "wns": 0
+    }
+  },
+  "setup": [],
+  "hold": [],
+  "clocks": [],
+  "statistics": {}
+}

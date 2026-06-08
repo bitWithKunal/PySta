@@ -1,0 +1,300 @@
+2026-02-17 14:02:23 | PySTA | INFO | logger.py:70 | Logger initialized. Log file: Logs\pysta_2026-02-17_14-02-23.log
+2026-02-17 14:02:41 | PySTA.__main__ | INFO | main.py:150 | ============================================================
+2026-02-17 14:02:41 | PySTA.__main__ | INFO | main.py:151 | PySTA Starting
+2026-02-17 14:02:41 | PySTA.__main__ | INFO | main.py:152 | ============================================================
+2026-02-17 14:02:41 | PySTA.__main__ | INFO | main.py:153 | Python version: 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+2026-02-17 14:02:41 | PySTA.__main__ | INFO | main.py:154 | Log file: Logs\pysta_2026-02-17_14-02-23.log
+2026-02-17 14:02:42 | PySTA.Src.utils.config_loader | INFO | config_loader.py:76 | No configuration file found. Using defaults.
+2026-02-17 14:02:42 | PySTA.__main__ | INFO | main.py:105 | Configuration loaded: STAConfig(enable_setup=True, enable_hold=True, enable_ocv=False, enable_si=False, enable_derating=False, ocv_derate_data=1.0, ocv_derate_clock=1.0, ocv_derate_early=0.95, ocv_derate_late=1.05, si_aggressor_coupling_threshold=0.1, si_noise_margin=0.2, max_paths_per_clock=10, max_path_depth=100, report_violations_only=False, report_timing_details=True, report_capacitance=True, report_transition=True)
+2026-02-17 14:02:42 | PySTA.__main__ | INFO | main.py:158 | Application initialized successfully
+2026-02-17 14:02:44 | PySTA.Src.utils.config_loader | INFO | config_loader.py:76 | No configuration file found. Using defaults.
+2026-02-17 14:02:44 | PySTA.Src.utils.config_loader | INFO | config_loader.py:76 | No configuration file found. Using defaults.
+2026-02-17 14:02:46 | PySTA.Src.gui.main_window | INFO | main_window.py:221 | PySTA main window ready
+2026-02-17 14:02:48 | PySTA.__main__ | INFO | main.py:130 | Main window created and displayed
+2026-02-17 14:04:44 | PySTA.Src.liberty_parser.liberty_parser | INFO | liberty_parser.py:44 | Parsing Liberty file: C:/Users/CodewithKunal/Documents/fast.lib
+2026-02-17 14:04:44 | PySTA.Src.utils.file_utils | DEBUG | file_utils.py:105 | Successfully read C:/Users/CodewithKunal/Documents/fast.lib with utf-8 encoding
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | INFO | liberty_parser.py:72 | Successfully parsed 0 cells from C:/Users/CodewithKunal/Documents/fast.lib
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | INFO | liberty_parser.py:44 | Parsing Liberty file: C:/Users/CodewithKunal/Documents/slow.lib
+2026-02-17 14:04:45 | PySTA.Src.gui.file_loader_widget | INFO | file_loader_widget.py:697 | Successfully processed: C:/Users/CodewithKunal/Documents/fast.lib
+2026-02-17 14:04:45 | PySTA.Src.utils.file_utils | DEBUG | file_utils.py:105 | Successfully read C:/Users/CodewithKunal/Documents/slow.lib with utf-8 encoding
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | INFO | liberty_parser.py:72 | Successfully parsed 0 cells from C:/Users/CodewithKunal/Documents/slow.lib
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | INFO | liberty_parser.py:85 | Parsing 2 Liberty files
+2026-02-17 14:04:45 | PySTA.Src.gui.file_loader_widget | INFO | file_loader_widget.py:697 | Successfully processed: C:/Users/CodewithKunal/Documents/slow.lib
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | INFO | liberty_parser.py:44 | Parsing Liberty file: C:/Users/CodewithKunal/Documents/fast.lib
+2026-02-17 14:04:45 | PySTA.Src.utils.file_utils | DEBUG | file_utils.py:105 | Successfully read C:/Users/CodewithKunal/Documents/fast.lib with utf-8 encoding
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | INFO | liberty_parser.py:72 | Successfully parsed 0 cells from C:/Users/CodewithKunal/Documents/fast.lib
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | INFO | liberty_parser.py:44 | Parsing Liberty file: C:/Users/CodewithKunal/Documents/slow.lib
+2026-02-17 14:04:45 | PySTA.Src.utils.file_utils | DEBUG | file_utils.py:105 | Successfully read C:/Users/CodewithKunal/Documents/slow.lib with utf-8 encoding
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | WARNING | liberty_parser.py:261 | Could not parse group opening: timing () {
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | INFO | liberty_parser.py:72 | Successfully parsed 0 cells from C:/Users/CodewithKunal/Documents/slow.lib
+2026-02-17 14:04:45 | PySTA.Src.liberty_parser.liberty_parser | INFO | liberty_parser.py:125 | Merged library: 0 total cells from 2 files
+2026-02-17 14:04:45 | PySTA.Src.verilog_parser.netlist_builder | INFO | netlist_builder.py:93 | Netlist builder initialized
+2026-02-17 14:04:45 | PySTA.Src.verilog_parser.verilog_parser | INFO | verilog_parser.py:60 | Parsing Verilog file: C:/Users/CodewithKunal/Documents/spi_slave_netlist.v
+2026-02-17 14:04:45 | PySTA.Src.utils.file_utils | DEBUG | file_utils.py:105 | Successfully read C:/Users/CodewithKunal/Documents/spi_slave_netlist.v with utf-8 encoding
+2026-02-17 14:04:45 | PySTA.Src.verilog_parser.verilog_parser | DEBUG | verilog_parser.py:304 | Parsing module: spi_slave from C:\Users\CodewithKunal\Documents\spi_slave_netlist.v
+2026-02-17 14:04:45 | PySTA.Src.verilog_parser.verilog_parser | INFO | verilog_parser.py:78 | Successfully parsed modules from C:/Users/CodewithKunal/Documents/spi_slave_netlist.v
+2026-02-17 14:04:45 | PySTA.Src.verilog_parser.module_resolver | INFO | module_resolver.py:103 | Building hierarchy with top module: spi_slave
+2026-02-17 14:04:45 | PySTA.Src.gui.file_loader_widget | INFO | file_loader_widget.py:697 | Successfully processed: C:/Users/CodewithKunal/Documents/spi_slave_netlist.v
+2026-02-17 14:04:45 | PySTA.Src.sdc_parser.sdc_parser | INFO | sdc_parser.py:77 | Parsing SDC file: C:/Users/CodewithKunal/Documents/sdc_slave.sdc
+2026-02-17 14:04:45 | PySTA.Src.utils.file_utils | DEBUG | file_utils.py:105 | Successfully read C:/Users/CodewithKunal/Documents/sdc_slave.sdc with utf-8 encoding
+2026-02-17 14:04:45 | PySTA.Src.sdc_parser.sdc_parser | DEBUG | sdc_parser.py:272 | Created clock: sys_clk with period 1e-08s
+2026-02-17 14:04:45 | PySTA.Src.sdc_parser.sdc_parser | DEBUG | sdc_parser.py:272 | Created clock: spi_clk with period 2e-08s
+2026-02-17 14:04:45 | PySTA.Src.sdc_parser.sdc_parser | DEBUG | sdc_parser.py:196 | Ignoring unknown command: set_clock_groups
+2026-02-17 14:04:45 | PySTA.Src.sdc_parser.timing_exceptions | DEBUG | timing_exceptions.py:172 | Added exception: false_path from [get_ports rst_n]
+2026-02-17 14:04:45 | PySTA.Src.sdc_parser.sdc_parser | DEBUG | sdc_parser.py:538 | Added false path: from [get_ports rst_n] to []
+2026-02-17 14:04:45 | PySTA.Src.sdc_parser.sdc_parser | DEBUG | sdc_parser.py:682 | Set operating conditions: {'analysis_type': 'on_chip_variation', 'library': 'slow', 'max_library': 'slow', 'min_library': 'fast'}
+2026-02-17 14:04:45 | PySTA.Src.sdc_parser.sdc_parser | INFO | sdc_parser.py:99 | Successfully parsed SDC file: 2 clocks, 1 exceptions
+2026-02-17 14:04:45 | PySTA.Src.gui.file_loader_widget | INFO | file_loader_widget.py:697 | Successfully processed: C:/Users/CodewithKunal/Documents/sdc_slave.sdc
+2026-02-17 14:04:45 | PySTA.Src.gui.main_window | INFO | main_window.py:1114 | Design files loaded
+2026-02-17 14:04:46 | PySTA.Src.gui.file_loader_widget | INFO | file_loader_widget.py:728 | All files loaded successfully
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.delay_calculator | INFO | delay_calculator.py:38 | Delay calculator initialized
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | INFO | timing_graph_builder.py:54 | Building timing graph
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type spi_slave not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type BUF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NOR2_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NOR2_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NOR2_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.timing_graph_builder | INFO | timing_graph_builder.py:77 | Timing graph built: 31 nodes, 0 edges
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.path_extractor | INFO | path_extractor.py:27 | Path extractor initialized
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:49 | Setup analyzer initialized
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:61 | Starting setup timing analysis
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:37 | Calculating arrival times
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:51 | Arrival time calculation complete
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:123 | Calculating required times
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:140 | Required time calculation complete
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:217 | ============================================================
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:218 | Setup Timing Analysis Summary
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:219 | ============================================================
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:220 | Total paths analyzed: 0
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:221 | Violations: 0
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:222 | Worst slack: 0.000 fs
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:223 | TNS: 0.000 fs
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:224 | WNS: 0.000 fs
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:225 | ============================================================
+2026-02-17 14:04:48 | PySTA.Src.timing_graph.path_extractor | INFO | path_extractor.py:27 | Path extractor initialized
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:49 | Hold analyzer initialized
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:61 | Starting hold timing analysis
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:37 | Calculating arrival times
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:51 | Arrival time calculation complete
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:123 | Calculating required times
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:140 | Required time calculation complete
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:218 | ============================================================
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:219 | Hold Timing Analysis Summary
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:220 | ============================================================
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:221 | Total paths analyzed: 0
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:222 | Violations: 0
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:223 | Worst slack: 0.000 fs
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:224 | TNS: 0.000 fs
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:225 | WNS: 0.000 fs
+2026-02-17 14:04:48 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:226 | ============================================================
+2026-02-17 14:04:48 | PySTA.Src.report_engine.excel_report_writer | INFO | excel_report_writer.py:92 | Excel report written to Reports\timing_report_20260217_140448.xlsx
+2026-02-17 14:04:48 | PySTA.Src.report_engine.rpt_report_writer | INFO | rpt_report_writer.py:54 | Setup RPT report written to Reports\setup_report_20260217_140448.rpt
+2026-02-17 14:04:48 | PySTA.Src.report_engine.rpt_report_writer | INFO | rpt_report_writer.py:92 | Hold RPT report written to Reports\hold_report_20260217_140448.rpt
+2026-02-17 14:04:48 | PySTA.Src.report_engine.summary_builder | INFO | summary_builder.py:87 | Summary written to Reports\summary_20260217_140448.txt
+2026-02-17 14:04:48 | PySTA.Src.report_engine.report_generator | INFO | report_generator.py:75 | Generated 5 report files in Reports
+2026-02-17 14:04:48 | PySTA.Src.gui.results_panel | INFO | results_panel.py:252 | Results panel updated with analysis results
+2026-02-17 14:04:53 | PySTA.Src.gui.main_window | INFO | main_window.py:1131 | Analysis complete
+2026-02-17 14:04:53 | PySTA.Src.gui.main_window | INFO | main_window.py:1177 | STA analysis started (setup)
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.delay_calculator | INFO | delay_calculator.py:38 | Delay calculator initialized
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | INFO | timing_graph_builder.py:54 | Building timing graph
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type spi_slave not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type BUF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NOR2_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NOR2_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NOR2_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type INV_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type NAND2_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | WARNING | timing_graph_builder.py:140 | Cell type DFF_X1 not found in library
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.timing_graph_builder | INFO | timing_graph_builder.py:77 | Timing graph built: 31 nodes, 0 edges
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.path_extractor | INFO | path_extractor.py:27 | Path extractor initialized
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:49 | Setup analyzer initialized
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:61 | Starting setup timing analysis
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:37 | Calculating arrival times
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:51 | Arrival time calculation complete
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:123 | Calculating required times
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:140 | Required time calculation complete
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:217 | ============================================================
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:218 | Setup Timing Analysis Summary
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:219 | ============================================================
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:220 | Total paths analyzed: 0
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:221 | Violations: 0
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:222 | Worst slack: 0.000 fs
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:223 | TNS: 0.000 fs
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:224 | WNS: 0.000 fs
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.setup_analyzer | INFO | setup_analyzer.py:225 | ============================================================
+2026-02-17 14:05:22 | PySTA.Src.timing_graph.path_extractor | INFO | path_extractor.py:27 | Path extractor initialized
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:49 | Hold analyzer initialized
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:61 | Starting hold timing analysis
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:37 | Calculating arrival times
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:51 | Arrival time calculation complete
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:123 | Calculating required times
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.arrival_required | INFO | arrival_required.py:140 | Required time calculation complete
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:218 | ============================================================
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:219 | Hold Timing Analysis Summary
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:220 | ============================================================
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:221 | Total paths analyzed: 0
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:222 | Violations: 0
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:223 | Worst slack: 0.000 fs
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:224 | TNS: 0.000 fs
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:225 | WNS: 0.000 fs
+2026-02-17 14:05:22 | PySTA.Src.sta_engine.hold_analyzer | INFO | hold_analyzer.py:226 | ============================================================
+2026-02-17 14:05:22 | PySTA.Src.report_engine.excel_report_writer | INFO | excel_report_writer.py:92 | Excel report written to Reports\timing_report_20260217_140522.xlsx
+2026-02-17 14:05:22 | PySTA.Src.report_engine.rpt_report_writer | INFO | rpt_report_writer.py:54 | Setup RPT report written to Reports\setup_report_20260217_140522.rpt
+2026-02-17 14:05:22 | PySTA.Src.report_engine.rpt_report_writer | INFO | rpt_report_writer.py:92 | Hold RPT report written to Reports\hold_report_20260217_140522.rpt
+2026-02-17 14:05:22 | PySTA.Src.report_engine.summary_builder | INFO | summary_builder.py:87 | Summary written to Reports\summary_20260217_140522.txt
+2026-02-17 14:05:22 | PySTA.Src.report_engine.report_generator | INFO | report_generator.py:75 | Generated 5 report files in Reports
+2026-02-17 14:05:22 | PySTA.Src.gui.results_panel | INFO | results_panel.py:252 | Results panel updated with analysis results
+2026-02-17 14:05:24 | PySTA.Src.gui.main_window | INFO | main_window.py:1131 | Analysis complete
+2026-02-17 14:05:24 | PySTA.Src.gui.main_window | INFO | main_window.py:1177 | STA analysis started (hold)
+2026-02-17 14:05:49 | PySTA.Src.report_engine.excel_report_writer | INFO | excel_report_writer.py:92 | Excel report written to Reports\timing_report_20260217_140549.xlsx
+2026-02-17 14:05:49 | PySTA.Src.report_engine.rpt_report_writer | INFO | rpt_report_writer.py:54 | Setup RPT report written to Reports\setup_report_20260217_140549.rpt
+2026-02-17 14:05:49 | PySTA.Src.report_engine.rpt_report_writer | INFO | rpt_report_writer.py:92 | Hold RPT report written to Reports\hold_report_20260217_140549.rpt
+2026-02-17 14:05:49 | PySTA.Src.report_engine.summary_builder | INFO | summary_builder.py:87 | Summary written to Reports\summary_20260217_140549.txt
+2026-02-17 14:05:49 | PySTA.Src.report_engine.report_generator | INFO | report_generator.py:75 | Generated 5 report files in Reports
+2026-02-17 14:05:51 | PySTA.Src.gui.main_window | INFO | main_window.py:1197 | Reports generated
+2026-02-17 14:12:17 | PySTA.Src.gui.main_window | INFO | main_window.py:1280 | Application exiting
+2026-02-17 14:12:17 | PySTA.__main__ | INFO | main.py:163 | Application exiting with code 0
+2026-02-17 14:12:17 | PySTA.__main__ | INFO | main.py:174 | PySTA shutdown complete
+2026-02-17 14:12:17 | PySTA.__main__ | INFO | main.py:182 | Cleanup completed
